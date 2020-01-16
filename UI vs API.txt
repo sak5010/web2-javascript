@@ -22,3 +22,24 @@ API라고 한다. ex) alert.
 API들을 순서에 맞게 잘 사용해서(응용해서)
 프로그램을 만드는 것이다.
 API와 순서는 필수불가결한 관계다.
+
+- mor detail (from StackOverflow) -
+UI
+UI stands for User Interface. UI allows the user to interact with the application.
+
+UI testing refers to testing graphical user interfaces, such as how user interacts with the application, testing application elements like fonts, layouts, buttons, images, colors, etc. Basically, UI testing concentrates on the look-and-feel of an application.
+
+For more details on API testing, see:
+http://www.guru99.com/gui-testing.html
+
+API
+API is an acronym for Application Programming Interface. API enables communication between two separate software systems. A software system implementing an API contains functions/sub-routines which can be executed by another software system.
+
+API testing is checking API of a Software System. In order to check the API , it needs to be called from the calling software . Necessary test environment, database, server, application setup needs to be prepared before doing API Testing.
+
+API testing is focused on the functionality of the business logic (such as a calculating total price) and it is entirely different from UI testing. It mainly concentrates on the business logic layer of the software architecture. This testing won’t concentrate on the look and feel of an application.
+
+For more details on API testing, see:
+http://www.guru99.com/api-testing.html
+
+from Eric Elahi.
